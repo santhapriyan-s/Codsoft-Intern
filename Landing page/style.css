@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    width: 100%;
+    min-height: 100hv;
+
+    background: #f4f4f4;
+}
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 76px;
+    background-color: rgb(17, 17, 17); /* Add background color to prevent content from showing behind the navbar */
+    z-index: 1000; /* Ensures the navbar stays on top of other elements */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: Adds a subtle shadow */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #f5f1f1;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f1e9e9;
+}
+
+
+
+.hero{
+    width: 100%;
+    height: auto;
+    background: url(a.jpg.png);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 140px 0;
+}
+.hero h2{
+    font-size: 76px;
+    margin-bottom: 10px;
+
+}
+.hero p{
+    font-size: 30px;
+    color: #dd1010;
+}
+.search-box{
+    max-width: 900px;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.search-box input{
+    width: 70%;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+    border: 0;
+    font-size: 1rem;
+    border: 1px solid rgb(245,37,9) ;
+}
+.search-box button{
+    
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 0px 5px 5px 0px;
+    border: 0;
+    font-size: 1rem;
+    background: rgb(245,37,9);
+    color: #fff;
+    cursor: pointer;
+}
+.about {
+    padding: 60px 20px;
+    background-color: #ec1298;
+}
+
+.about-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.about-image {
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.about-text {
+    width: 60%;
+}
+
+.about-text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #111010;
+}
+
+.about-text p {
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.6;
+}
+/* General styling for the products section */
+.products {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #464544;
+}
+
+.products h2 {
+    font-size: 36px;
+    color: #090909;
+    margin-bottom: 40px;
+}
+
+/* Styling for the product cards container */
+.product-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; /* Adjusted space between the cards */
+}
+
+/* Styling for each product card */
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card a {
+    display: block;
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effects */
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product-card a:hover {
+    background-color: #0056b3;
+}
+
+
+.contact {
+    padding: 60px 20px;
+    background-color: #918585;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgb(241, 109, 109);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+form button {
+    padding: 15px;
+    background-color: #29f700;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #26d200;
+}
+
+

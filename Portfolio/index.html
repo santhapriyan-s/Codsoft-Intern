@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio Website</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            body {
+                scroll-behavior: smooth;
+            }
+
+            section {
+                padding: 100px 20px;
+                min-height: 100vh;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="hero" id="home">
+            <nav>
+                <h2 class="logo">Portfo<span>lio</span></h2>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+                <a href="#" class="btn">Subscribe</a>
+            </nav>
+            <div class="content">
+                <h4>Hello, my name is</h4>
+                <h1>Santha<span>priyan</span></h1>
+                <h3>I'm a Web Developer.</h3>
+                <div class="newslatter">
+                    <form>
+                        <input type="email" name="email" id="mail" placeholder="Enter Your Email">
+                        <input type="submit" name="submit" value="Let's Start">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <section class="about" id="about">
+            <div class="main">
+                <img src="a.jpg.jpg" alt="About Image">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <h5>Developer <span>& Designer</span></h5>
+                    <p>I am a front-end web developer. I can provide clean code and pixel-perfect design. I also make the website more interactive with web animations. A responsive design makes your website accessible to all users, regardless of their device.</p>
+                    <button type="button">Let's Talk</button>
+                    <button class="resume"><a href="file:///C:/Users/Lenovo/Documents/RESUME.pdf">DOWNLOAD CV</a></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="service" id="services">
+           
+            <div class="title">
+                <h2>Our Services</h2>
+            </div>
+            <div class="box">
+                <div class="card">
+                    <i class="fas fa-bars"></i>
+                    <h5>Web Development</h5>
+                    <div class="pra">
+                        <p>Every website should be built with two primary goals: First, it needs to work across all devices. Second, it needs to be as fast as possible.</p>
+                        <p style="text-align: center;">
+                            <a class="button" href="#">Read More</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <i class="fas fa-user"></i>
+                    <h5>Fully Responsive</h5>
+                    <div class="pra">
+                        <p>Every website should be built with two primary goals: First, it needs to work across all devices. Second, it needs to be as fast as possible.</p>
+                        <p style="text-align: center;">
+                            <a class="button" href="#">Read More</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <i class="fas fa-bell"></i>
+                    <h5>Designing</h5>
+                    <div class="pra">
+                        <p>Every website should be built with two primary goals: First, it needs to work across all devices. Second, it needs to be as fast as possible.</p>
+                        <p style="text-align: center;">
+                            <a class="button" href="#">Read More</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+        
+            <div class="skills-container">
+                <h2>My Skills</h2>
+                <!-- Skill Bars -->
+                <div class="skill-bar">
+                    <p>HTML</p>
+                    <div class="bar">
+                        <div class="progress html"></div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <p>CSS</p>
+                    <div class="bar">
+                        <div class="progress css"></div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <p>JavaScript</p>
+                    <div class="bar">
+                        <div class="progress js"></div>
+                    </div>
+                </div>
+                <!-- Circular Progress Bars -->
+                <div class="circular-bars">
+                    <div class="circle html-circle">
+                        <div class="inner-circle"></div>
+                        <div class="number">90%</div>
+                        <p>HTML</p>
+                    </div>
+                    <div class="circle css-circle">
+                        <div class="inner-circle"></div>
+                        <div class="number">80%</div>
+                        <p>CSS</p>
+                    </div>
+                    <div class="circle js-circle">
+                        <div class="inner-circle"></div>
+                        <div class="number">75%</div>
+                        <p>JavaScript</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="Project" id="project">
+           
+            <div class="project-head">
+                <h1>Project</h1>
+                <h2>Project Name: Hotel Booking System</h2>
+                <h2 class="pooja"><span>Description</span></h2>
+                <p>Developed a hotel booking system using HTML, CSS, and stored the data in MongoDB.</p>
+            </div>
+            <div class="santha">
+                <div class="image-container">
+                    <img src="c.png.png" alt="Project Image 1" height="190px">
+                    <img src="d.png.png" alt="Project Image 2" height="190px">
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-me" id="contact">
+            <p>Let Me Get You A Beautiful Website.</p>
+            <a class="button-two" href="#">Hire Me</a>
+        </section>
+
+        <footer>
+            <h2>Contact Us</h2>
+            <p>Santhapriyan</p>
+            <p>Please click on the link below to subscribe and follow my account:</p>
+            <div class="social">
+                <a href="https://www.linkedin.com/in/santhapriyan-s-143568259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:santhapriyansubramani9@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.instagram.com/_santha_priyan?igsh=aWdiYmx3aTVkeTg2"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <p class="end">CopyRight By Santha Priyan</p>
+        </footer>
+        <!-- Previous and Next buttons -->
+<div class="navigation-buttons">
+    <a href="#prev" class="nav-btn" id="prev-btn">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+    <a href="#next" class="nav-btn" id="next-btn">
+        <i class="fas fa-chevron-down"></i>
+    </a>
+</div>
+    </body>
+</html>
